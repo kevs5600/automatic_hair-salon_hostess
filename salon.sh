@@ -1,8 +1,8 @@
 #!/bin/bash
-PSQL="psql -X --username=freecodecamp --dbname=salon --tuples-only -c"
+PSQL="psql -X --username=<yourusername> --dbname=salon --tuples-only -c"
 # test purposes
 # echo "$($PSQL "SELECT * FROM services")"
-echo -e "\n~~~~~ Dabi Salon ~~~~~\n"
+echo -e "\n~~~~~ <Salon Name> ~~~~~\n"
 echo -e "Welcome, this are some of the services that we offer\n"
 
 MAIN_MENU(){
